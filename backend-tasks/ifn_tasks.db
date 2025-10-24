@@ -1,0 +1,10 @@
+CREATE TABLE tareas (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  descripcion TEXT,
+  estado TEXT
+);
+
+INSERT INTO tareas (descripcion, estado) VALUES
+('Medición de árboles', 'hecha'),
+('Toma de coordenadas', 'en proceso'),
+('Registro fotográfico', 'por hacer');

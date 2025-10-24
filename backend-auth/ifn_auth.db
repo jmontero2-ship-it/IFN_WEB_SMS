@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS usuarios (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  codigo_conglomerado TEXT,
+  codigo_brigada TEXT,
+  password TEXT,
+  rol TEXT
+);
+
+
+INSERT INTO usuarios (codigo_conglomerado, codigo_brigada, password, rol) VALUES
+('IFN-001', 'BRG-01', 'brigada2024', 'tecnico'),
+('IFN-002', 'BRG-02', 'adminifn', 'administrador'),
+('IFN-003', 'BRG-03', 'voluntario', 'voluntario');
